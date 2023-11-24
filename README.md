@@ -11,8 +11,9 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
  
  
 ## Equipments Required:
-## Hardware – PCs, Cyclone II , USB flasher
-## Software – Quartus prime
+ Hardware – PCs, Cyclone II , USB flasher
+## Software :
+Quartus prime
 
 ## Theory
  A combinational circuit is a circuit in which the output depends on the present combination of inputs. Combinational circuits are made up of logic gates. The output of each logic gate is determined by its logic function. Combinational circuits can be made using various logic gates, such as AND gates, OR gates, and NOT gate.
