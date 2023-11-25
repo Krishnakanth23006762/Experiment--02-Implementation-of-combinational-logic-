@@ -1,5 +1,5 @@
-Name: B KRISHNAKANTH
-Registration no: 23006762
+# BY: B KRISHNAKANTH
+# Registration no: 23006762
 # Experiment--02-Implementation-of-combinational-logic
 Implementation of combinational logic gates
  
@@ -49,12 +49,15 @@ Quartus prime
 ## RTL realization
 ![exp2_RTL](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/041d80b4-5d14-4c1f-aaaa-6a8f4327a6d5)
 
-## Output:
-![rtl img](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/4677cc49-9038-4a4f-a919-6a03c8eb454b)
 
 ## Truth Table
 
 ![word table ](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/7a31cbaf-0c1c-4fc6-be9e-3570ae8eb7d8)
+
+
+## Output:
+![rtl img](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/4677cc49-9038-4a4f-a919-6a03c8eb454b)
+
 
 ## Result:
 Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
