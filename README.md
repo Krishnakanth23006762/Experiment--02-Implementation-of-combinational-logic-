@@ -44,7 +44,7 @@ Quartus prime
    - Give the Input Combinations according to the Truth Table amd then simulate the Output waveform
 
 ## Program:
-
+```
 module flipflops(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
 input a,b;
 output Y1,Y2,Y3,Y4,Y5,Y6,Y7;
@@ -56,7 +56,7 @@ nand(Y5,a,b);
 nor(Y6,a,b);
 xnor(Y7,a,b);
 endmodule
-
+```
 
 ## Truth Table
 
