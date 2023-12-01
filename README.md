@@ -8,8 +8,6 @@ To implement the given logic function verify its operation in Quartus using Veri
  F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
  
- 
- 
 ## Equipments Required:
  Hardware – PCs, Cyclone II , USB flasher
 ## Software :
@@ -59,7 +57,6 @@ endmodule
 ```
 
 ## Truth Table
-
 ![word table ](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/7a31cbaf-0c1c-4fc6-be9e-3570ae8eb7d8)
 
 ## RTL realization
@@ -67,7 +64,6 @@ endmodule
 
 ## Output:
 ![rtl img](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/4677cc49-9038-4a4f-a919-6a03c8eb454b)
-
 
 ## Result:
 Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
