@@ -44,16 +44,26 @@ Quartus prime
    - Give the Input Combinations according to the Truth Table amd then simulate the Output waveform
 
 ## Program:
-![program img d1](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/cb865aae-b6c6-49c9-b4e4-c3c867786f54)
 
-## RTL realization
-![exp2_RTL](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/041d80b4-5d14-4c1f-aaaa-6a8f4327a6d5)
+module flipflops(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
+input a,b;
+output Y1,Y2,Y3,Y4,Y5,Y6,Y7;
+and(Y1,a,b);
+or(Y2,a,b);
+not(Y3,a);
+xor(Y4,a,b);
+nand(Y5,a,b);
+nor(Y6,a,b);
+xnor(Y7,a,b);
+endmodule
 
 
 ## Truth Table
 
 ![word table ](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/7a31cbaf-0c1c-4fc6-be9e-3570ae8eb7d8)
 
+## RTL realization
+![exp2_RTL](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/041d80b4-5d14-4c1f-aaaa-6a8f4327a6d5)
 
 ## Output:
 ![rtl img](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/4677cc49-9038-4a4f-a919-6a03c8eb454b)
