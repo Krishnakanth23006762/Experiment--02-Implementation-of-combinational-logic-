@@ -43,29 +43,32 @@ Quartus prime
 
 ## Program:
 ```
-module flipflops(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
-input a,b;
-output Y1,Y2,Y3,Y4,Y5,Y6,Y7;
-and(Y1,a,b);
-or(Y2,a,b);
-not(Y3,a);
-xor(Y4,a,b);
-nand(Y5,a,b);
-nor(Y6,a,b);
-xnor(Y7,a,b);
+module combinationalcircuit(A,B,C,D,F1);
+input A,B,C,D;
+output F1;
+wire x1,x2,x3,x4,x5;
+assign x1=(~A)&(~B)&(~C)&(~D);
+assign x2=(A)&(~C)&(~D);
+assign x3=(~B)&(C)&(~D);
+assign x4=(~A)&(B)&(C)&(D);
+assign x5=(B)&(~C)&(D);
+assign F1=x1|x2|x3|x4|x5;
 endmodule
 ```
 
 
 ## RTL realization
-![exp2_RTL](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/041d80b4-5d14-4c1f-aaaa-6a8f4327a6d5)
+![image](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/2d45569f-bc74-449d-8066-6dd7647bfed0)
 
-
-## Truth Table
-![word table ](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/7a31cbaf-0c1c-4fc6-be9e-3570ae8eb7d8)
 
 ## Output:
-![rtl img](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/4677cc49-9038-4a4f-a919-6a03c8eb454b)
+## Truth Table
+![image](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/b655748a-c44c-41cf-a9b8-5c43287030fe)
+
+## Timing Diagram:
+
+![image](https://github.com/Krishnakanth23006762/Experiment--02-Implementation-of-combinational-logic-/assets/138849446/9ad7389c-441b-495c-a1d9-d3cdfa808061)
+
 
 ## Result:
 Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
